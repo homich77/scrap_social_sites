@@ -1,0 +1,31 @@
+upload/
+downloads/
+.env/
+.frontend_env/
+.idea/
+.cache/
+dbs/
+tor/configs/
+scrapper/migrations/
+
+#tor stuff
+tor/logs/
+tor/data/
+
+#trial stuff
+_trial_temp/
+
+# imagescrapper/settings.py
+imagescrapper/settings_local.py
+imagescrapper/settings.pyc
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+# Django stuff:
+*.log
+*.pot
+*.pid
+celerybeat-schedule
+supervisord.conf
